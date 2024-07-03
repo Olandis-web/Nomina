@@ -1,0 +1,8 @@
+C:\Users\oland\OneDrive\Escritorio\Proyecto Nomina\Sysnom2024\obj\Debug\net8.0-windows\Sysnom2024.FormMenu.resources
+C:\Users\oland\OneDrive\Escritorio\Proyecto Nomina\Sysnom2024\obj\Debug\net8.0-windows\Sysnom2024.Properties.Resources.resources
+C:\Users\oland\OneDrive\Escritorio\Proyecto Nomina\Sysnom2024\obj\Debug\net8.0-windows\Sysnom2024.csproj.GenerateResource.cache
+C:\Users\oland\OneDrive\Escritorio\Proyecto Nomina\Sysnom2024\obj\Debug\net8.0-windows\Sysnom2024.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oland\OneDrive\Escritorio\Proyecto Nomina\Sysnom2024\obj\Debug\net8.0-windows\Sysnom2024.AssemblyInfoInputs.cache
+C:\Users\oland\OneDrive\Escritorio\Proyecto Nomina\Sysnom2024\obj\Debug\net8.0-windows\Sysnom2024.AssemblyInfo.cs
+C:\Users\oland\OneDrive\Escritorio\Proyecto Nomina\Sysnom2024\obj\Debug\net8.0-windows\Sysnom2024.csproj.CoreCompileInputs.cache
+C:\Users\oland\OneDrive\Escritorio\Proyecto Nomina\Sysnom2024\obj\Debug\net8.0-windows\Sysnom2024.sourcelink.json

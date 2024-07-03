@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZbpYhZntuUPM3blYo9CV9F0whF+3X9Ktv2+IJLjvzJXl/4QmpiXl3QZswqNNX3eaTcEgE7ubphvUdPo+HNXccw==",
+  "dgSpecHash": "0jhda0JdKpg=",
   "success": true,
   "projectFilePath": "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina\\Sysnom2024\\Sysnom2024.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\oland\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.18362.31\\microsoft.windows.sdk.net.ref.10.0.18362.31.nupkg.sha512"
+  ],
   "logs": []
 }
