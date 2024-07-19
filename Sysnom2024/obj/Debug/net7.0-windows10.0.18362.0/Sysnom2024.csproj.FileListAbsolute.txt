@@ -19,3 +19,32 @@ C:\Users\oland\OneDrive\Escritorio\Proyecto Nomina\Sysnom2024\obj\Debug\net7.0-w
 C:\Users\oland\OneDrive\Escritorio\Proyecto Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.pdb
 C:\Users\oland\OneDrive\Escritorio\Proyecto Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.genruntimeconfig.cache
 C:\Users\oland\OneDrive\Escritorio\Proyecto Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\ref\Sysnom2024.dll
+C:\Sysnom2024\Nomina\Sysnom2024\bin\Debug\net7.0-windows10.0.18362.0\Sysnom2024.exe
+C:\Sysnom2024\Nomina\Sysnom2024\bin\Debug\net7.0-windows10.0.18362.0\Sysnom2024.deps.json
+C:\Sysnom2024\Nomina\Sysnom2024\bin\Debug\net7.0-windows10.0.18362.0\Sysnom2024.runtimeconfig.json
+C:\Sysnom2024\Nomina\Sysnom2024\bin\Debug\net7.0-windows10.0.18362.0\Sysnom2024.dll
+C:\Sysnom2024\Nomina\Sysnom2024\bin\Debug\net7.0-windows10.0.18362.0\Sysnom2024.pdb
+C:\Sysnom2024\Nomina\Sysnom2024\bin\Debug\net7.0-windows10.0.18362.0\Microsoft.Windows.SDK.NET.dll
+C:\Sysnom2024\Nomina\Sysnom2024\bin\Debug\net7.0-windows10.0.18362.0\WinRT.Runtime.dll
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.FormMenu.resources
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.Properties.Resources.resources
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.csproj.GenerateResource.cache
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.AssemblyInfoInputs.cache
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.AssemblyInfo.cs
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.csproj.CoreCompileInputs.cache
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.sourcelink.json
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.csproj.Up2Date
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.dll
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\refint\Sysnom2024.dll
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.pdb
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.genruntimeconfig.cache
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\ref\Sysnom2024.dll
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.FormEmpleados.resources
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.FormPosiciones.resources
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.FormDepartamentos.resources
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.FormComision.resources
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.FormDescuentos.resources
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.FormGestionEmpresa.resources
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.FormGestionUsuario.resources
+C:\Sysnom2024\Nomina\Sysnom2024\obj\Debug\net7.0-windows10.0.18362.0\Sysnom2024.FormHorasExtras.resources
