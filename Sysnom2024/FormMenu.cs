@@ -19,50 +19,79 @@ namespace Sysnom2024
 
         private void empleadosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormEmpleados Empleados = new FormEmpleados();
+            FormEmpleado Empleados = new FormEmpleado();
             Empleados.Show();
         }
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            FormPosiciones posiciones = new FormPosiciones();
+            FormPosicion posiciones = new FormPosicion();
             posiciones.Show();
         }
 
         private void departamentosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormDepartamentos Departamentos = new FormDepartamentos();
+            FormDepartamento Departamentos = new FormDepartamento();
             Departamentos.Show();
         }
 
         private void descuentosToolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            FormDescuentos Descuentos = new FormDescuentos();
+            FormProcesoDescuento Descuentos = new FormProcesoDescuento();
             Descuentos.Show();
         }
 
         private void horasExtrasToolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            FormHorasExtras HorasExtras = new FormHorasExtras();
+            FormProcesoHoraExtra HorasExtras = new FormProcesoHoraExtra();
             HorasExtras.Show();
         }
 
         private void comisionToolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            FormComision Comision = new FormComision();
+            FormProcesoComision Comision = new FormProcesoComision();
             Comision.Show();
         }
 
         private void gestionDeUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormGestionUsuario GestionUsuario = new FormGestionUsuario();
+            FormGestionUsuarios GestionUsuario = new FormGestionUsuarios();
             GestionUsuario.Show();
         }
 
         private void gestionDeEmpresaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormGestionEmpresa GestionEmpresa = new FormGestionEmpresa();   
+            FormGestionEmpresas GestionEmpresa = new FormGestionEmpresas();
             GestionEmpresa.Show();
+        }
+
+        private void descuentosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormConsultaDescuento Consultadescuento = new FormConsultaDescuento();
+            Consultadescuento.Show();
+        }
+
+        private void horasExtrasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormConsultaHorasExtras Consultahoras = new FormConsultaHorasExtras();
+            Consultahoras.Show();
+        }
+
+        private void comisionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormConsultaComision Consultacomision = new FormConsultaComision();
+            Consultacomision.Show();
+        }
+
+        private void empleadosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormConsultaEmpleado Consultaempleado = new FormConsultaEmpleado();
+            Consultaempleado.Show();
+        }
+
+        private void salirDelSistemaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

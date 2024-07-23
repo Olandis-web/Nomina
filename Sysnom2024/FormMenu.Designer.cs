@@ -47,7 +47,6 @@
             descuentosToolStripMenuItem2 = new ToolStripMenuItem();
             horasExtrasToolStripMenuItem2 = new ToolStripMenuItem();
             comisionToolStripMenuItem2 = new ToolStripMenuItem();
-            pagoDeNominaToolStripMenuItem = new ToolStripMenuItem();
             administracionToolStripMenuItem = new ToolStripMenuItem();
             gestionDeUsuarioToolStripMenuItem = new ToolStripMenuItem();
             gestionDeEmpresaToolStripMenuItem = new ToolStripMenuItem();
@@ -62,7 +61,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { mantenimientosToolStripMenuItem, consultasToolStripMenuItem, reportesToolStripMenuItem, procesosToolStripMenuItem, administracionToolStripMenuItem, salirDelSistemaToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(856, 28);
+            menuStrip1.Size = new Size(929, 28);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -76,21 +75,21 @@
             // empleadosToolStripMenuItem
             // 
             empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
-            empleadosToolStripMenuItem.Size = new Size(210, 26);
+            empleadosToolStripMenuItem.Size = new Size(224, 26);
             empleadosToolStripMenuItem.Text = "1. Empleados";
             empleadosToolStripMenuItem.Click += empleadosToolStripMenuItem_Click;
             // 
             // toolStripMenuItem2
             // 
             toolStripMenuItem2.Name = "toolStripMenuItem2";
-            toolStripMenuItem2.Size = new Size(210, 26);
+            toolStripMenuItem2.Size = new Size(224, 26);
             toolStripMenuItem2.Text = "2. Posiciones";
             toolStripMenuItem2.Click += toolStripMenuItem2_Click;
             // 
             // departamentosToolStripMenuItem
             // 
             departamentosToolStripMenuItem.Name = "departamentosToolStripMenuItem";
-            departamentosToolStripMenuItem.Size = new Size(210, 26);
+            departamentosToolStripMenuItem.Size = new Size(224, 26);
             departamentosToolStripMenuItem.Text = "3. Departamentos";
             departamentosToolStripMenuItem.Click += departamentosToolStripMenuItem_Click;
             // 
@@ -106,24 +105,28 @@
             descuentosToolStripMenuItem.Name = "descuentosToolStripMenuItem";
             descuentosToolStripMenuItem.Size = new Size(189, 26);
             descuentosToolStripMenuItem.Text = "1. Descuentos";
+            descuentosToolStripMenuItem.Click += descuentosToolStripMenuItem_Click;
             // 
             // horasExtrasToolStripMenuItem
             // 
             horasExtrasToolStripMenuItem.Name = "horasExtrasToolStripMenuItem";
             horasExtrasToolStripMenuItem.Size = new Size(189, 26);
             horasExtrasToolStripMenuItem.Text = "2. Horas Extras";
+            horasExtrasToolStripMenuItem.Click += horasExtrasToolStripMenuItem_Click;
             // 
             // comisionToolStripMenuItem
             // 
             comisionToolStripMenuItem.Name = "comisionToolStripMenuItem";
             comisionToolStripMenuItem.Size = new Size(189, 26);
             comisionToolStripMenuItem.Text = "3. Comision";
+            comisionToolStripMenuItem.Click += comisionToolStripMenuItem_Click;
             // 
             // empleadosToolStripMenuItem1
             // 
             empleadosToolStripMenuItem1.Name = "empleadosToolStripMenuItem1";
             empleadosToolStripMenuItem1.Size = new Size(189, 26);
             empleadosToolStripMenuItem1.Text = "4. Empleados";
+            empleadosToolStripMenuItem1.Click += empleadosToolStripMenuItem1_Click;
             // 
             // reportesToolStripMenuItem
             // 
@@ -158,7 +161,7 @@
             // 
             // procesosToolStripMenuItem
             // 
-            procesosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { descuentosToolStripMenuItem2, horasExtrasToolStripMenuItem2, comisionToolStripMenuItem2, pagoDeNominaToolStripMenuItem });
+            procesosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { descuentosToolStripMenuItem2, horasExtrasToolStripMenuItem2, comisionToolStripMenuItem2 });
             procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
             procesosToolStripMenuItem.Size = new Size(81, 24);
             procesosToolStripMenuItem.Text = "Procesos";
@@ -166,29 +169,23 @@
             // descuentosToolStripMenuItem2
             // 
             descuentosToolStripMenuItem2.Name = "descuentosToolStripMenuItem2";
-            descuentosToolStripMenuItem2.Size = new Size(218, 26);
+            descuentosToolStripMenuItem2.Size = new Size(189, 26);
             descuentosToolStripMenuItem2.Text = "1. Descuentos";
             descuentosToolStripMenuItem2.Click += descuentosToolStripMenuItem2_Click;
             // 
             // horasExtrasToolStripMenuItem2
             // 
             horasExtrasToolStripMenuItem2.Name = "horasExtrasToolStripMenuItem2";
-            horasExtrasToolStripMenuItem2.Size = new Size(218, 26);
+            horasExtrasToolStripMenuItem2.Size = new Size(189, 26);
             horasExtrasToolStripMenuItem2.Text = "2. Horas Extras";
             horasExtrasToolStripMenuItem2.Click += horasExtrasToolStripMenuItem2_Click;
             // 
             // comisionToolStripMenuItem2
             // 
             comisionToolStripMenuItem2.Name = "comisionToolStripMenuItem2";
-            comisionToolStripMenuItem2.Size = new Size(218, 26);
+            comisionToolStripMenuItem2.Size = new Size(189, 26);
             comisionToolStripMenuItem2.Text = "3. Comision";
             comisionToolStripMenuItem2.Click += comisionToolStripMenuItem2_Click;
-            // 
-            // pagoDeNominaToolStripMenuItem
-            // 
-            pagoDeNominaToolStripMenuItem.Name = "pagoDeNominaToolStripMenuItem";
-            pagoDeNominaToolStripMenuItem.Size = new Size(218, 26);
-            pagoDeNominaToolStripMenuItem.Text = "4. Pago de Nomina";
             // 
             // administracionToolStripMenuItem
             // 
@@ -217,11 +214,12 @@
             salirDelSistemaToolStripMenuItem.Name = "salirDelSistemaToolStripMenuItem";
             salirDelSistemaToolStripMenuItem.Size = new Size(131, 24);
             salirDelSistemaToolStripMenuItem.Text = "Salir del sistema";
+            salirDelSistemaToolStripMenuItem.Click += salirDelSistemaToolStripMenuItem_Click;
             // 
             // salirToolStripMenuItem
             // 
             salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            salirToolStripMenuItem.Size = new Size(136, 26);
+            salirToolStripMenuItem.Size = new Size(224, 26);
             salirToolStripMenuItem.Text = "1. Salir";
             salirToolStripMenuItem.Click += salirToolStripMenuItem_Click;
             // 
@@ -229,8 +227,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(192, 192, 255);
-            ClientSize = new Size(856, 495);
+            BackColor = SystemColors.Info;
+            ClientSize = new Size(929, 570);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "FormMenu";
@@ -265,7 +263,6 @@
         private ToolStripMenuItem descuentosToolStripMenuItem2;
         private ToolStripMenuItem horasExtrasToolStripMenuItem2;
         private ToolStripMenuItem comisionToolStripMenuItem2;
-        private ToolStripMenuItem pagoDeNominaToolStripMenuItem;
         private ToolStripMenuItem gestionDeUsuarioToolStripMenuItem;
         private ToolStripMenuItem gestionDeEmpresaToolStripMenuItem;
     }
