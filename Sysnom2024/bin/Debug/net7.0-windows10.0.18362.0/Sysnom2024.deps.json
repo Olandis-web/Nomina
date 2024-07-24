@@ -9,6 +9,7 @@
       "Sysnom2024/1.0.0": {
         "dependencies": {
           "Microsoft.ReportingServices.ReportViewerControl.Winforms": "150.1652.0",
+          "Microsoft.SqlServer.Types": "160.1000.6",
           "System.Data.SqlClient": "4.8.6",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.18362.31"
         },
@@ -31,7 +32,7 @@
       "Microsoft.NETCore.Platforms/3.1.0": {},
       "Microsoft.ReportingServices.ReportViewerControl.Winforms/150.1652.0": {
         "dependencies": {
-          "Microsoft.SqlServer.Types": "14.0.314.76"
+          "Microsoft.SqlServer.Types": "160.1000.6"
         },
         "runtime": {
           "lib/net40/Microsoft.ReportViewer.Common.dll": {
@@ -178,11 +179,66 @@
           }
         }
       },
-      "Microsoft.SqlServer.Types/14.0.314.76": {
+      "Microsoft.SqlServer.Server/1.0.0": {
         "runtime": {
-          "lib/net40/Microsoft.SqlServer.Types.dll": {
-            "assemblyVersion": "14.0.0.0",
-            "fileVersion": "2016.140.100.187"
+          "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.SqlServer.Types/160.1000.6": {
+        "dependencies": {
+          "Microsoft.SqlServer.Server": "1.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.SqlServer.Types.dll": {
+            "assemblyVersion": "16.0.0.0",
+            "fileVersion": "16.0.1000.6"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.1/de/Microsoft.SqlServer.Types.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/Microsoft.SqlServer.Types.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/Microsoft.SqlServer.Types.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/Microsoft.SqlServer.Types.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/Microsoft.SqlServer.Types.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/Microsoft.SqlServer.Types.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pt-BR/Microsoft.SqlServer.Types.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/Microsoft.SqlServer.Types.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/zh-Hans/Microsoft.SqlServer.Types.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/Microsoft.SqlServer.Types.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/native/SqlServerSpatial160.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "2022.160.1000.6"
+          },
+          "runtimes/win-x86/native/SqlServerSpatial160.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "2022.160.1000.6"
           }
         }
       },
@@ -287,12 +343,19 @@
       "path": "microsoft.reportingservices.reportviewercontrol.winforms/150.1652.0",
       "hashPath": "microsoft.reportingservices.reportviewercontrol.winforms.150.1652.0.nupkg.sha512"
     },
-    "Microsoft.SqlServer.Types/14.0.314.76": {
+    "Microsoft.SqlServer.Server/1.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-gAekCmSfjtRBaiuuRIqJJV6cfEsEbYY5vI7Ssoc5sYI04JcyPrZ4C8RC3z7K9xfpr9ejQAQ1AtfvtgqEnjmwOw==",
-      "path": "microsoft.sqlserver.types/14.0.314.76",
-      "hashPath": "microsoft.sqlserver.types.14.0.314.76.nupkg.sha512"
+      "sha512": "sha512-N4KeF3cpcm1PUHym1RmakkzfkEv3GRMyofVv40uXsQhCQeglr2OHNcUk2WOG51AKpGO8ynGpo9M/kFXSzghwug==",
+      "path": "microsoft.sqlserver.server/1.0.0",
+      "hashPath": "microsoft.sqlserver.server.1.0.0.nupkg.sha512"
+    },
+    "Microsoft.SqlServer.Types/160.1000.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4kk+rz5vnIPr9ENzm8KttUbhBKftv0uHSSFDVjc5OuKPtRP5q0lDbYUy5ZsoYCAG3RrZdJoxPnWN2JNozZAiGA==",
+      "path": "microsoft.sqlserver.types/160.1000.6",
+      "hashPath": "microsoft.sqlserver.types.160.1000.6.nupkg.sha512"
     },
     "Microsoft.Win32.Registry/4.7.0": {
       "type": "package",

@@ -31,5 +31,16 @@ namespace Sysnom2024.Properties {
                 return ((string)(this["conexion"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-JKG9C4V\\SQLEXPRESS;Initial Catalog=SysNom2024;Integrated Secu" +
+            "rity=True;TrustServerCertificate=True")]
+        public string SysNom2024ConnectionString {
+            get {
+                return ((string)(this["SysNom2024ConnectionString"]));
+            }
+        }
     }
 }
