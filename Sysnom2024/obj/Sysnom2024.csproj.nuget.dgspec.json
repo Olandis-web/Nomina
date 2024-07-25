@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina\\Sysnom2024\\Sysnom2024.csproj": {}
+    "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina 2\\Sysnom2024\\Sysnom2024.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina\\Sysnom2024\\Sysnom2024.csproj": {
+    "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina 2\\Sysnom2024\\Sysnom2024.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina\\Sysnom2024\\Sysnom2024.csproj",
+        "projectUniqueName": "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina 2\\Sysnom2024\\Sysnom2024.csproj",
         "projectName": "Sysnom2024",
-        "projectPath": "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina\\Sysnom2024\\Sysnom2024.csproj",
+        "projectPath": "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina 2\\Sysnom2024\\Sysnom2024.csproj",
         "packagesPath": "C:\\Users\\oland\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina\\Sysnom2024\\obj\\",
+        "outputPath": "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina 2\\Sysnom2024\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oland\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net48"
+          "net7.0-windows8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net48": {
-            "targetAlias": "net48",
+          "net7.0-windows8.0": {
+            "targetAlias": "net7.0-windows8.0",
             "projectReferences": {}
           }
         },
@@ -42,8 +42,8 @@
         }
       },
       "frameworks": {
-        "net48": {
-          "targetAlias": "net48",
+        "net7.0-windows8.0": {
+          "targetAlias": "net7.0-windows8.0",
           "dependencies": {
             "Microsoft.ReportingServices.ReportViewerControl.Winforms": {
               "target": "Package",
@@ -58,12 +58,26 @@
               "version": "[4.8.6, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win7-x86": {
-          "#import": []
         }
       }
     }

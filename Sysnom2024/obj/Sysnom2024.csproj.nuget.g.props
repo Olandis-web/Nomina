@@ -12,7 +12,4 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\oland\.nuget\packages\" />
   </ItemGroup>
-  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.sqlserver.types\160.1000.6\build\net462\Microsoft.SqlServer.Types.props" Condition="Exists('$(NuGetPackageRoot)microsoft.sqlserver.types\160.1000.6\build\net462\Microsoft.SqlServer.Types.props')" />
-  </ImportGroup>
 </Project>
