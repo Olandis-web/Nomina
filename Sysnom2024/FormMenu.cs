@@ -1,3 +1,14 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
 namespace Sysnom2024
 {
     public partial class FormMenu : Form
@@ -21,6 +32,7 @@ namespace Sysnom2024
         {
             FormEmpleado Empleados = new FormEmpleado();
             Empleados.Show();
+           
         }
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
