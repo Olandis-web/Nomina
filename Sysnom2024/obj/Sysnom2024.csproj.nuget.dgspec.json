@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MantenimientoGeneral\\Sysnom2024\\Sysnom2024.csproj": {}
+    "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina 2\\Sysnom2024\\Sysnom2024.csproj": {}
   },
   "projects": {
-    "C:\\MantenimientoGeneral\\Sysnom2024\\Sysnom2024.csproj": {
+    "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina 2\\Sysnom2024\\Sysnom2024.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MantenimientoGeneral\\Sysnom2024\\Sysnom2024.csproj",
+        "projectUniqueName": "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina 2\\Sysnom2024\\Sysnom2024.csproj",
         "projectName": "Sysnom2024",
-        "projectPath": "C:\\MantenimientoGeneral\\Sysnom2024\\Sysnom2024.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\MantenimientoGeneral\\Sysnom2024\\obj\\",
+        "projectPath": "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina 2\\Sysnom2024\\Sysnom2024.csproj",
+        "packagesPath": "C:\\Users\\oland\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina 2\\Sysnom2024\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\oland\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -73,24 +69,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

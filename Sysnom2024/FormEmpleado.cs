@@ -15,7 +15,7 @@ namespace Sysnom2024
 {
     public partial class FormEmpleado : Form
     {
-        SqlConnection conexion = new SqlConnection("integrated security=SSPI;data source=DESKTOP-HVC9RKQ;" + "persist security info=False;initial catalog=SysNom2024");
+        SqlConnection conexion = new SqlConnection("integrated security=SSPI;data source=DESKTOP-JKG9C4V;" + "persist security info=False;initial catalog=SysNom2024");
 
         public FormEmpleado()
         {
