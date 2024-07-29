@@ -88,6 +88,7 @@
             button1.TabIndex = 44;
             button1.Text = "Buscar";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // dataGridView1
             // 
@@ -98,6 +99,7 @@
             dataGridView1.RowTemplate.Height = 29;
             dataGridView1.Size = new Size(755, 188);
             dataGridView1.TabIndex = 46;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // label8
             // 

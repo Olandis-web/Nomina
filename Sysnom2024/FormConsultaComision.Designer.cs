@@ -47,6 +47,7 @@
             dataGridView1.RowTemplate.Height = 29;
             dataGridView1.Size = new Size(755, 188);
             dataGridView1.TabIndex = 53;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // label8
             // 
@@ -69,6 +70,7 @@
             button1.TabIndex = 51;
             button1.Text = "Buscar";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button5
             // 
@@ -124,6 +126,7 @@
             Controls.Add(label1);
             Name = "FormConsultaComision";
             Text = "FormConsultaComision";
+            Load += FormConsultaComision_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
