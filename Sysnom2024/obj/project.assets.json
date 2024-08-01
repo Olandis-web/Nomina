@@ -798,19 +798,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\oland\\.nuget\\packages\\": {}
+    "C:\\Users\\yosti\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina 2\\Sysnom2024\\Sysnom2024.csproj",
+      "projectUniqueName": "C:\\Sysnom-admin\\Sysnom2024\\Sysnom2024.csproj",
       "projectName": "Sysnom2024",
-      "projectPath": "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina 2\\Sysnom2024\\Sysnom2024.csproj",
-      "packagesPath": "C:\\Users\\oland\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina 2\\Sysnom2024\\obj\\",
+      "projectPath": "C:\\Sysnom-admin\\Sysnom2024\\Sysnom2024.csproj",
+      "packagesPath": "C:\\Users\\yosti\\.nuget\\packages\\",
+      "outputPath": "C:\\Sysnom-admin\\Sysnom2024\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\oland\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yosti\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -865,6 +865,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -873,7 +891,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -882,7 +900,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.ReportingServices.ReportViewerControl.Winforms 150.1652.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows8.0'. This package may not be fully compatible with your project.",
+      "message": "El paquete \"Microsoft.ReportingServices.ReportViewerControl.Winforms 150.1652.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net7.0-windows8.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
       "libraryId": "Microsoft.ReportingServices.ReportViewerControl.Winforms",
       "targetGraphs": [
         "net7.0-windows8.0"

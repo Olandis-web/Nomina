@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina 2\\Sysnom2024\\Sysnom2024.csproj": {}
+    "C:\\Sysnom-admin\\Sysnom2024\\Sysnom2024.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina 2\\Sysnom2024\\Sysnom2024.csproj": {
+    "C:\\Sysnom-admin\\Sysnom2024\\Sysnom2024.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina 2\\Sysnom2024\\Sysnom2024.csproj",
+        "projectUniqueName": "C:\\Sysnom-admin\\Sysnom2024\\Sysnom2024.csproj",
         "projectName": "Sysnom2024",
-        "projectPath": "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina 2\\Sysnom2024\\Sysnom2024.csproj",
-        "packagesPath": "C:\\Users\\oland\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oland\\OneDrive\\Escritorio\\Proyecto Nomina 2\\Sysnom2024\\obj\\",
+        "projectPath": "C:\\Sysnom-admin\\Sysnom2024\\Sysnom2024.csproj",
+        "packagesPath": "C:\\Users\\yosti\\.nuget\\packages\\",
+        "outputPath": "C:\\Sysnom-admin\\Sysnom2024\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\oland\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yosti\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,6 +69,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -77,7 +95,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
