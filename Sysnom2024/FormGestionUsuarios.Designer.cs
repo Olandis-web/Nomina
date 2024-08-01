@@ -28,84 +28,84 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button5 = new Button();
-            button4 = new Button();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
-            dataGridView1 = new DataGridView();
+            btnSalir = new Button();
+            btnEliminar = new Button();
+            btnActualizar = new Button();
+            btnGuardar = new Button();
+            btnNuevo = new Button();
+            dataGridViewUsuario = new DataGridView();
             label8 = new Label();
-            comboBox2 = new ComboBox();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
-            label7 = new Label();
-            label5 = new Label();
-            label4 = new Label();
-            label3 = new Label();
-            label2 = new Label();
+            comboBoxRol = new ComboBox();
+            txtUserName = new TextBox();
+            txtNombre = new TextBox();
+            txtIDEmpleado = new TextBox();
+            Rol = new Label();
+            Clave = new Label();
+            UserName = new Label();
+            Nombre = new Label();
+            IDEmpleado = new Label();
             label1 = new Label();
-            textBox4 = new TextBox();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            txtClave = new TextBox();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewUsuario).BeginInit();
             SuspendLayout();
             // 
-            // button5
+            // btnSalir
             // 
-            button5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            button5.ForeColor = Color.FromArgb(192, 0, 0);
-            button5.Location = new Point(672, 16);
-            button5.Name = "button5";
-            button5.Size = new Size(93, 27);
-            button5.TabIndex = 59;
-            button5.Text = "Salir";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
+            btnSalir.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnSalir.ForeColor = Color.FromArgb(192, 0, 0);
+            btnSalir.Location = new Point(672, 16);
+            btnSalir.Name = "btnSalir";
+            btnSalir.Size = new Size(93, 27);
+            btnSalir.TabIndex = 59;
+            btnSalir.Text = "Salir";
+            btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Click += btnSalir_Click;
             // 
-            // button4
+            // btnEliminar
             // 
-            button4.Location = new Point(663, 313);
-            button4.Name = "button4";
-            button4.Size = new Size(101, 42);
-            button4.TabIndex = 58;
-            button4.Text = "Eliminar";
-            button4.UseVisualStyleBackColor = true;
+            btnEliminar.Location = new Point(663, 313);
+            btnEliminar.Name = "btnEliminar";
+            btnEliminar.Size = new Size(101, 42);
+            btnEliminar.TabIndex = 58;
+            btnEliminar.Text = "Eliminar";
+            btnEliminar.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnActualizar
             // 
-            button3.Location = new Point(663, 245);
-            button3.Name = "button3";
-            button3.Size = new Size(101, 42);
-            button3.TabIndex = 57;
-            button3.Text = "Actualizar";
-            button3.UseVisualStyleBackColor = true;
+            btnActualizar.Location = new Point(663, 245);
+            btnActualizar.Name = "btnActualizar";
+            btnActualizar.Size = new Size(101, 42);
+            btnActualizar.TabIndex = 57;
+            btnActualizar.Text = "Actualizar";
+            btnActualizar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnGuardar
             // 
-            button2.Location = new Point(663, 174);
-            button2.Name = "button2";
-            button2.Size = new Size(101, 42);
-            button2.TabIndex = 56;
-            button2.Text = "Guardar";
-            button2.UseVisualStyleBackColor = true;
+            btnGuardar.Location = new Point(663, 174);
+            btnGuardar.Name = "btnGuardar";
+            btnGuardar.Size = new Size(101, 42);
+            btnGuardar.TabIndex = 56;
+            btnGuardar.Text = "Guardar";
+            btnGuardar.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnNuevo
             // 
-            button1.Location = new Point(663, 90);
-            button1.Name = "button1";
-            button1.Size = new Size(101, 42);
-            button1.TabIndex = 55;
-            button1.Text = "Nuevo";
-            button1.UseVisualStyleBackColor = true;
+            btnNuevo.Location = new Point(663, 90);
+            btnNuevo.Name = "btnNuevo";
+            btnNuevo.Size = new Size(101, 42);
+            btnNuevo.TabIndex = 55;
+            btnNuevo.Text = "Nuevo";
+            btnNuevo.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // dataGridViewUsuario
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(9, 460);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(755, 188);
-            dataGridView1.TabIndex = 54;
+            dataGridViewUsuario.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewUsuario.Location = new Point(9, 460);
+            dataGridViewUsuario.Name = "dataGridViewUsuario";
+            dataGridViewUsuario.RowHeadersWidth = 51;
+            dataGridViewUsuario.RowTemplate.Height = 29;
+            dataGridViewUsuario.Size = new Size(755, 188);
+            dataGridViewUsuario.TabIndex = 54;
             // 
             // label8
             // 
@@ -117,85 +117,85 @@
             label8.TabIndex = 53;
             label8.Text = "Lista de Usuarios";
             // 
-            // comboBox2
+            // comboBoxRol
             // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(138, 336);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(151, 28);
-            comboBox2.TabIndex = 52;
+            comboBoxRol.FormattingEnabled = true;
+            comboBoxRol.Location = new Point(138, 336);
+            comboBoxRol.Name = "comboBoxRol";
+            comboBoxRol.Size = new Size(151, 28);
+            comboBoxRol.TabIndex = 52;
             // 
-            // textBox3
+            // txtUserName
             // 
-            textBox3.Location = new Point(138, 211);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(156, 27);
-            textBox3.TabIndex = 49;
+            txtUserName.Location = new Point(138, 211);
+            txtUserName.Name = "txtUserName";
+            txtUserName.Size = new Size(156, 27);
+            txtUserName.TabIndex = 49;
             // 
-            // textBox2
+            // txtNombre
             // 
-            textBox2.Location = new Point(138, 153);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(156, 27);
-            textBox2.TabIndex = 48;
+            txtNombre.Location = new Point(138, 153);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(156, 27);
+            txtNombre.TabIndex = 48;
             // 
-            // textBox1
+            // txtIDEmpleado
             // 
-            textBox1.Location = new Point(138, 98);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(53, 27);
-            textBox1.TabIndex = 47;
+            txtIDEmpleado.Location = new Point(138, 98);
+            txtIDEmpleado.Name = "txtIDEmpleado";
+            txtIDEmpleado.Size = new Size(53, 27);
+            txtIDEmpleado.TabIndex = 47;
             // 
-            // label7
+            // Rol
             // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Bahnschrift SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.Location = new Point(13, 335);
-            label7.Name = "label7";
-            label7.Size = new Size(40, 24);
-            label7.TabIndex = 46;
-            label7.Text = "Rol";
+            Rol.AutoSize = true;
+            Rol.Font = new Font("Bahnschrift SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            Rol.Location = new Point(13, 335);
+            Rol.Name = "Rol";
+            Rol.Size = new Size(40, 24);
+            Rol.TabIndex = 46;
+            Rol.Text = "Rol";
             // 
-            // label5
+            // Clave
             // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Bahnschrift SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(13, 266);
-            label5.Name = "label5";
-            label5.Size = new Size(60, 24);
-            label5.TabIndex = 44;
-            label5.Text = "Clave";
+            Clave.AutoSize = true;
+            Clave.Font = new Font("Bahnschrift SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            Clave.Location = new Point(13, 266);
+            Clave.Name = "Clave";
+            Clave.Size = new Size(60, 24);
+            Clave.TabIndex = 44;
+            Clave.Text = "Clave";
             // 
-            // label4
+            // UserName
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Bahnschrift SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(13, 210);
-            label4.Name = "label4";
-            label4.Size = new Size(106, 24);
-            label4.TabIndex = 43;
-            label4.Text = "UserName";
+            UserName.AutoSize = true;
+            UserName.Font = new Font("Bahnschrift SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            UserName.Location = new Point(13, 210);
+            UserName.Name = "UserName";
+            UserName.Size = new Size(106, 24);
+            UserName.TabIndex = 43;
+            UserName.Text = "UserName";
             // 
-            // label3
+            // Nombre
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Bahnschrift SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(13, 153);
-            label3.Name = "label3";
-            label3.Size = new Size(83, 24);
-            label3.TabIndex = 42;
-            label3.Text = "Nombre";
+            Nombre.AutoSize = true;
+            Nombre.Font = new Font("Bahnschrift SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            Nombre.Location = new Point(13, 153);
+            Nombre.Name = "Nombre";
+            Nombre.Size = new Size(83, 24);
+            Nombre.TabIndex = 42;
+            Nombre.Text = "Nombre";
             // 
-            // label2
+            // IDEmpleado
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Bahnschrift SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(13, 97);
-            label2.Name = "label2";
-            label2.Size = new Size(119, 24);
-            label2.TabIndex = 41;
-            label2.Text = "IDEmpleado";
-            label2.Click += label2_Click;
+            IDEmpleado.AutoSize = true;
+            IDEmpleado.Font = new Font("Bahnschrift SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            IDEmpleado.Location = new Point(13, 97);
+            IDEmpleado.Name = "IDEmpleado";
+            IDEmpleado.Size = new Size(119, 24);
+            IDEmpleado.TabIndex = 41;
+            IDEmpleado.Text = "IDEmpleado";
+            
             // 
             // label1
             // 
@@ -207,12 +207,12 @@
             label1.TabIndex = 40;
             label1.Text = "Gestion de Usuarios";
             // 
-            // textBox4
+            // txtClave
             // 
-            textBox4.Location = new Point(138, 267);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(156, 27);
-            textBox4.TabIndex = 60;
+            txtClave.Location = new Point(138, 267);
+            txtClave.Name = "txtClave";
+            txtClave.Size = new Size(156, 27);
+            txtClave.TabIndex = 60;
             // 
             // FormGestionUsuarios
             // 
@@ -220,51 +220,51 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             ClientSize = new Size(800, 664);
-            Controls.Add(textBox4);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(dataGridView1);
+            Controls.Add(txtClave);
+            Controls.Add(btnSalir);
+            Controls.Add(btnEliminar);
+            Controls.Add(btnActualizar);
+            Controls.Add(btnGuardar);
+            Controls.Add(btnNuevo);
+            Controls.Add(dataGridViewUsuario);
             Controls.Add(label8);
-            Controls.Add(comboBox2);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label7);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
+            Controls.Add(comboBoxRol);
+            Controls.Add(txtUserName);
+            Controls.Add(txtNombre);
+            Controls.Add(txtIDEmpleado);
+            Controls.Add(Rol);
+            Controls.Add(Clave);
+            Controls.Add(UserName);
+            Controls.Add(Nombre);
+            Controls.Add(IDEmpleado);
             Controls.Add(label1);
             Name = "FormGestionUsuarios";
             Text = "FormGestionUsuarios";
             Load += FormGestionUsuarios_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewUsuario).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button button5;
-        private Button button4;
-        private Button button3;
-        private Button button2;
-        private Button button1;
-        private DataGridView dataGridView1;
+        private Button btnSalir;
+        private Button btnEliminar;
+        private Button btnActualizar;
+        private Button btnGuardar;
+        private Button btnNuevo;
+        private DataGridView dataGridViewUsuario;
         private Label label8;
-        private ComboBox comboBox2;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private Label label7;
-        private Label label5;
-        private Label label4;
-        private Label label3;
-        private Label label2;
+        private ComboBox comboBoxRol;
+        private TextBox txtUserName;
+        private TextBox txtNombre;
+        private TextBox txtIDEmpleado;
+        private Label Rol;
+        private Label Clave;
+        private Label UserName;
+        private Label Nombre;
+        private Label IDEmpleado;
         private Label label1;
-        private TextBox textBox4;
+        private TextBox txtClave;
     }
 }
