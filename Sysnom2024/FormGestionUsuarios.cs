@@ -15,7 +15,7 @@ namespace Sysnom2024
 {
         public partial class FormGestionUsuarios : Form
         {
-            private readonly SqlConnection conexion = new SqlConnection("Integrated security=SSPI;data source=MSI\\SQLEXPRESS;persist security info=False;initial catalog=SysNom2024");
+            private readonly SqlConnection conexion = new SqlConnection("Integrated security=SSPI;data source=DESKTOP-JKG9C4V\\SQLEXPRESS\\SQLEXPRESS;persist security info=False;initial catalog=SysNom2024");
 
             public FormGestionUsuarios()
             {
