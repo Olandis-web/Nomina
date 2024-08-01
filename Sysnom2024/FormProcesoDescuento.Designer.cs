@@ -42,6 +42,7 @@
             label2 = new Label();
             label1 = new Label();
             comboBox1 = new ComboBox();
+            button6 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -65,6 +66,7 @@
             button4.TabIndex = 94;
             button4.Text = "Eliminar";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
@@ -74,6 +76,7 @@
             button3.TabIndex = 93;
             button3.Text = "Actualizar";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -83,6 +86,7 @@
             button2.TabIndex = 92;
             button2.Text = "Guardar";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -92,16 +96,18 @@
             button1.TabIndex = 91;
             button1.Text = "Nuevo";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(19, 325);
+            dataGridView1.Location = new Point(22, 313);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
             dataGridView1.Size = new Size(755, 188);
             dataGridView1.TabIndex = 90;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // label8
             // 
@@ -115,7 +121,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(147, 154);
+            textBox2.Location = new Point(133, 154);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(156, 27);
             textBox2.TabIndex = 85;
@@ -143,9 +149,9 @@
             label3.Font = new Font("Bahnschrift SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(22, 153);
             label3.Name = "label3";
-            label3.Size = new Size(124, 24);
+            label3.Size = new Size(100, 24);
             label3.TabIndex = 80;
-            label3.Text = "ID Empleado";
+            label3.Text = "Empleado";
             // 
             // label2
             // 
@@ -175,12 +181,23 @@
             comboBox1.Size = new Size(204, 28);
             comboBox1.TabIndex = 96;
             // 
+            // button6
+            // 
+            button6.Location = new Point(295, 153);
+            button6.Name = "button6";
+            button6.Size = new Size(94, 29);
+            button6.TabIndex = 97;
+            button6.Text = "Buscar";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
+            // 
             // FormProcesoDescuento
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             ClientSize = new Size(797, 528);
+            Controls.Add(button6);
             Controls.Add(comboBox1);
             Controls.Add(button5);
             Controls.Add(button4);
@@ -197,6 +214,7 @@
             Controls.Add(label1);
             Name = "FormProcesoDescuento";
             Text = "FormProcesoDescuento";
+            Load += FormProcesoDescuento_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -218,5 +236,6 @@
         private Label label2;
         private Label label1;
         private ComboBox comboBox1;
+        private Button button6;
     }
 }

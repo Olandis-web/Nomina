@@ -46,6 +46,7 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
+            button6 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -69,6 +70,7 @@
             button4.TabIndex = 76;
             button4.Text = "Eliminar";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
@@ -78,6 +80,7 @@
             button3.TabIndex = 75;
             button3.Text = "Actualizar";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -87,6 +90,7 @@
             button2.TabIndex = 74;
             button2.Text = "Guardar";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -96,6 +100,7 @@
             button1.TabIndex = 73;
             button1.Text = "Nuevo";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // dataGridView1
             // 
@@ -106,6 +111,7 @@
             dataGridView1.RowTemplate.Height = 29;
             dataGridView1.Size = new Size(755, 188);
             dataGridView1.TabIndex = 72;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // label8
             // 
@@ -144,7 +150,7 @@
             // 
             textBox2.Location = new Point(209, 150);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(156, 27);
+            textBox2.Size = new Size(211, 27);
             textBox2.TabIndex = 67;
             // 
             // textBox1
@@ -214,12 +220,23 @@
             label1.TabIndex = 60;
             label1.Text = "Proceso de Comision";
             // 
+            // button6
+            // 
+            button6.Location = new Point(426, 149);
+            button6.Name = "button6";
+            button6.Size = new Size(94, 29);
+            button6.TabIndex = 78;
+            button6.Text = "Buscar";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
+            // 
             // FormProcesoComision
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             ClientSize = new Size(820, 634);
+            Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
@@ -240,6 +257,7 @@
             Controls.Add(label1);
             Name = "FormProcesoComision";
             Text = "FormProcesoComision";
+            Load += FormProcesoComision_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -265,5 +283,6 @@
         private Label label3;
         private Label label2;
         private Label label1;
+        private Button button6;
     }
 }
