@@ -48,6 +48,8 @@
             GestionDeEmpresas = new Label();
             txtDireccion = new TextBox();
             txtPropietario = new TextBox();
+            label1 = new Label();
+            textBox1 = new TextBox();
             ((System.ComponentModel.ISupportInitialize)dataGridViewEmpresas).BeginInit();
             SuspendLayout();
             // 
@@ -71,6 +73,7 @@
             btnEliminar.TabIndex = 58;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click_1;
             // 
             // btnActualizar
             // 
@@ -80,6 +83,7 @@
             btnActualizar.TabIndex = 57;
             btnActualizar.Text = "Actualizar";
             btnActualizar.UseVisualStyleBackColor = true;
+            btnActualizar.Click += btnActualizar_Click_1;
             // 
             // btnGuardar
             // 
@@ -89,6 +93,7 @@
             btnGuardar.TabIndex = 56;
             btnGuardar.Text = "Guardar";
             btnGuardar.UseVisualStyleBackColor = true;
+            btnGuardar.Click += btnGuardar_Click_1;
             // 
             // btnNuevo
             // 
@@ -98,6 +103,7 @@
             btnNuevo.TabIndex = 55;
             btnNuevo.Text = "Nuevo";
             btnNuevo.UseVisualStyleBackColor = true;
+            btnNuevo.Click += btnNuevo_Click_1;
             // 
             // dataGridViewEmpresas
             // 
@@ -108,6 +114,7 @@
             dataGridViewEmpresas.RowTemplate.Height = 29;
             dataGridViewEmpresas.Size = new Size(755, 194);
             dataGridViewEmpresas.TabIndex = 54;
+            dataGridViewEmpresas.CellContentClick += dataGridViewEmpresas_CellContentClick;
             // 
             // ListaDeEmpresas
             // 
@@ -121,28 +128,29 @@
             // 
             // txtSitioWeb
             // 
-            txtSitioWeb.Location = new Point(160, 327);
+            txtSitioWeb.Location = new Point(160, 291);
             txtSitioWeb.Name = "txtSitioWeb";
             txtSitioWeb.Size = new Size(156, 27);
             txtSitioWeb.TabIndex = 50;
+            txtSitioWeb.TextChanged += txtSitioWeb_TextChanged;
             // 
             // txtRNC
             // 
-            txtRNC.Location = new Point(160, 211);
+            txtRNC.Location = new Point(160, 184);
             txtRNC.Name = "txtRNC";
             txtRNC.Size = new Size(156, 27);
             txtRNC.TabIndex = 49;
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(160, 153);
+            txtNombre.Location = new Point(160, 135);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(156, 27);
             txtNombre.TabIndex = 48;
             // 
             // txtIDEmpresa
             // 
-            txtIDEmpresa.Location = new Point(160, 98);
+            txtIDEmpresa.Location = new Point(159, 84);
             txtIDEmpresa.Name = "txtIDEmpresa";
             txtIDEmpresa.Size = new Size(53, 27);
             txtIDEmpresa.TabIndex = 47;
@@ -161,7 +169,7 @@
             // 
             SitioWeb.AutoSize = true;
             SitioWeb.Font = new Font("Bahnschrift SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            SitioWeb.Location = new Point(35, 326);
+            SitioWeb.Location = new Point(32, 290);
             SitioWeb.Name = "SitioWeb";
             SitioWeb.Size = new Size(93, 24);
             SitioWeb.TabIndex = 45;
@@ -171,7 +179,7 @@
             // 
             Propietario.AutoSize = true;
             Propietario.Font = new Font("Bahnschrift SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            Propietario.Location = new Point(35, 266);
+            Propietario.Location = new Point(35, 237);
             Propietario.Name = "Propietario";
             Propietario.Size = new Size(112, 24);
             Propietario.TabIndex = 44;
@@ -181,7 +189,7 @@
             // 
             RNC.AutoSize = true;
             RNC.Font = new Font("Bahnschrift SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            RNC.Location = new Point(35, 210);
+            RNC.Location = new Point(35, 184);
             RNC.Name = "RNC";
             RNC.Size = new Size(49, 24);
             RNC.TabIndex = 43;
@@ -191,7 +199,7 @@
             // 
             Nombre.AutoSize = true;
             Nombre.Font = new Font("Bahnschrift SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            Nombre.Location = new Point(35, 153);
+            Nombre.Location = new Point(35, 134);
             Nombre.Name = "Nombre";
             Nombre.Size = new Size(83, 24);
             Nombre.TabIndex = 42;
@@ -201,7 +209,7 @@
             // 
             IDEmpresa.AutoSize = true;
             IDEmpresa.Font = new Font("Bahnschrift SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            IDEmpresa.Location = new Point(35, 97);
+            IDEmpresa.Location = new Point(35, 87);
             IDEmpresa.Name = "IDEmpresa";
             IDEmpresa.Size = new Size(110, 24);
             IDEmpresa.TabIndex = 41;
@@ -226,10 +234,27 @@
             // 
             // txtPropietario
             // 
-            txtPropietario.Location = new Point(160, 277);
+            txtPropietario.Location = new Point(160, 237);
             txtPropietario.Name = "txtPropietario";
             txtPropietario.Size = new Size(156, 27);
             txtPropietario.TabIndex = 61;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Bahnschrift SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(32, 335);
+            label1.Name = "label1";
+            label1.Size = new Size(86, 24);
+            label1.TabIndex = 62;
+            label1.Text = "Telefono";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(160, 332);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(156, 27);
+            textBox1.TabIndex = 63;
             // 
             // FormGestionEmpresas
             // 
@@ -237,6 +262,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Info;
             ClientSize = new Size(830, 690);
+            Controls.Add(textBox1);
+            Controls.Add(label1);
             Controls.Add(txtPropietario);
             Controls.Add(txtDireccion);
             Controls.Add(btnSalir);
@@ -287,5 +314,7 @@
         private Label GestionDeEmpresas;
         private TextBox txtDireccion;
         private TextBox txtPropietario;
+        private Label label1;
+        private TextBox textBox1;
     }
 }

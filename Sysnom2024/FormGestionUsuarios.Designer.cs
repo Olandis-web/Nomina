@@ -69,6 +69,7 @@
             btnEliminar.TabIndex = 58;
             btnEliminar.Text = "Eliminar";
             btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.Click += btnEliminar_Click_1;
             // 
             // btnActualizar
             // 
@@ -78,6 +79,7 @@
             btnActualizar.TabIndex = 57;
             btnActualizar.Text = "Actualizar";
             btnActualizar.UseVisualStyleBackColor = true;
+            btnActualizar.Click += btnActualizar_Click_1;
             // 
             // btnGuardar
             // 
@@ -87,6 +89,7 @@
             btnGuardar.TabIndex = 56;
             btnGuardar.Text = "Guardar";
             btnGuardar.UseVisualStyleBackColor = true;
+            btnGuardar.Click += btnGuardar_Click_1;
             // 
             // btnNuevo
             // 
@@ -96,6 +99,7 @@
             btnNuevo.TabIndex = 55;
             btnNuevo.Text = "Nuevo";
             btnNuevo.UseVisualStyleBackColor = true;
+            btnNuevo.Click += btnNuevo_Click_1;
             // 
             // dataGridViewUsuario
             // 
@@ -106,6 +110,7 @@
             dataGridViewUsuario.RowTemplate.Height = 29;
             dataGridViewUsuario.Size = new Size(755, 188);
             dataGridViewUsuario.TabIndex = 54;
+            dataGridViewUsuario.CellContentClick += dataGridViewUsuario_CellContentClick;
             // 
             // label8
             // 
@@ -192,10 +197,9 @@
             IDEmpleado.Font = new Font("Bahnschrift SemiBold", 12F, FontStyle.Bold, GraphicsUnit.Point);
             IDEmpleado.Location = new Point(13, 97);
             IDEmpleado.Name = "IDEmpleado";
-            IDEmpleado.Size = new Size(119, 24);
+            IDEmpleado.Size = new Size(99, 24);
             IDEmpleado.TabIndex = 41;
-            IDEmpleado.Text = "IDEmpleado";
-            
+            IDEmpleado.Text = "IDUsuario";
             // 
             // label1
             // 

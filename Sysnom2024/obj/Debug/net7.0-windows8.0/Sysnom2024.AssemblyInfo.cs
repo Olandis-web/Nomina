@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sysnom2024")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c53a8457ee34309c8d9f9e7a5348cc30c317258")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4833d6401f67d0d40b93bc25ffe6d079246c2eab")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sysnom2024")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sysnom2024")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
