@@ -406,3 +406,4 @@ C:\Users\oland\OneDrive\Escritorio\Proyecto Nomina 2\Sysnom2024\obj\Debug\net7.0
 C:\Users\oland\OneDrive\Escritorio\Proyecto Nomina 2\Sysnom2024\obj\Debug\net7.0-windows8.0\Sysnom2024.pdb
 C:\Users\oland\OneDrive\Escritorio\Proyecto Nomina 2\Sysnom2024\obj\Debug\net7.0-windows8.0\Sysnom2024.genruntimeconfig.cache
 C:\Users\oland\OneDrive\Escritorio\Proyecto Nomina 2\Sysnom2024\obj\Debug\net7.0-windows8.0\ref\Sysnom2024.dll
+C:\Users\oland\OneDrive\Escritorio\Proyecto Nomina 2\Sysnom2024\obj\Debug\net7.0-windows8.0\Sysnom2024.Login.resources

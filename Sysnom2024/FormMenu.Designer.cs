@@ -75,21 +75,21 @@
             // empleadosToolStripMenuItem
             // 
             empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
-            empleadosToolStripMenuItem.Size = new Size(224, 26);
+            empleadosToolStripMenuItem.Size = new Size(210, 26);
             empleadosToolStripMenuItem.Text = "1. Empleados";
             empleadosToolStripMenuItem.Click += empleadosToolStripMenuItem_Click;
             // 
             // toolStripMenuItem2
             // 
             toolStripMenuItem2.Name = "toolStripMenuItem2";
-            toolStripMenuItem2.Size = new Size(224, 26);
+            toolStripMenuItem2.Size = new Size(210, 26);
             toolStripMenuItem2.Text = "2. Posiciones";
             toolStripMenuItem2.Click += toolStripMenuItem2_Click;
             // 
             // departamentosToolStripMenuItem
             // 
             departamentosToolStripMenuItem.Name = "departamentosToolStripMenuItem";
-            departamentosToolStripMenuItem.Size = new Size(224, 26);
+            departamentosToolStripMenuItem.Size = new Size(210, 26);
             departamentosToolStripMenuItem.Text = "3. Departamentos";
             departamentosToolStripMenuItem.Click += departamentosToolStripMenuItem_Click;
             // 
@@ -219,7 +219,7 @@
             // salirToolStripMenuItem
             // 
             salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            salirToolStripMenuItem.Size = new Size(224, 26);
+            salirToolStripMenuItem.Size = new Size(136, 26);
             salirToolStripMenuItem.Text = "1. Salir";
             salirToolStripMenuItem.Click += salirToolStripMenuItem_Click;
             // 

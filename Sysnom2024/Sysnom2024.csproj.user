@@ -52,6 +52,9 @@
     <Compile Update="FormReporteHoraExtra.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Update="SysNom2024DataSet.xsd">
